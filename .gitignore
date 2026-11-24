@@ -1,0 +1,43 @@
+# RStudio local state and session history
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+
+# Credentials and deployment metadata
+.env
+.env.*
+!.env.example
+rsconnect/
+*Connect_To_Shiny_io.R
+*credentials*
+*secrets*
+
+# Local package/environment caches
+renv/library/
+renv/staging/
+.packrat/
+.Rcheck/
+
+# Python virtual environments, caches (if used)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Temporary outputs and OS files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# User-uploaded/private student datasets and local exports
+uploads/
+private_data/
+outputs/
+*.rds
+*.RDS
+.Rproj.user
+.httr-oauth
+.quarto
